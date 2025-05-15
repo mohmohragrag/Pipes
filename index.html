@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مقارنة مواسير الشد والضغط</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>مقارنة مواسير متساوية أو أقوى في المساحة</h2>
+
+    <label for="inch">أدخل القطر بالبوصة:</label>
+    <input type="number" id="inch" step="0.1">
+
+    <label for="thickness">أدخل السمك (مم):</label>
+    <input type="number" id="thickness" step="0.1">
+
+    <button onclick="comparePipes()">اعرض النتائج</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
